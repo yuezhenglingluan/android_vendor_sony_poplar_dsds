@@ -1,0 +1,10 @@
+# Copyright (C) 2018 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+#
+
+# Touch
+on property:dev.bootcomplete=1 && property:persist.sys.touch.glove_mode=*
+    write /sys/devices/virtual/input/clearpad/glove ${persist.sys.touch.glove_mode}
+
+on property:dev.bootcomplete=1 && property:persist.sys.touch.cover_mode_enabled=*
+    write /sys/devices/virtual/input/clearpad/cover_mode_enabled ${persist.sys.touch.cover_mode_enabled}

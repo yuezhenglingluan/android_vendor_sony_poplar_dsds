@@ -1,0 +1,5 @@
+# Aliases extracted from modules themselves.
+alias of:N*T*Cfpc,fpc1145* fpc1145_platform
+alias of:N*T*Cfpc,fpc1020* fpc1145_platform
+alias of:N*T*Cldo-vibrator* ldo_vibrator
+alias fs-texfat texfat
